@@ -1,0 +1,63 @@
+.header{
+    width: 100%;    
+    position: relative;
+    
+    &__content{
+        background-image: linear-gradient(90.05deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/header-bg-img.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 95vh;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);        
+    }
+
+    &__logo{
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        width: 56px;
+        height: 70px;
+    }
+
+    &__text{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__title{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 10px;
+        margin-bottom: 10px;
+        text-decoration: uppercase;
+        animation-name: LeftToRight;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-delay: 0.5s;
+        animation-fill-mode: backwards;
+    }
+
+    &__subtitle{
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 5px;
+        margin-bottom: 50px;
+        animation-name: RightToLeft;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-delay: 0.5s;
+        animation-fill-mode: backwards;
+    }
+
+    
+
+}
+
+
